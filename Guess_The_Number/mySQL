@@ -1,0 +1,21 @@
+create database GTN;
+use GTN;
+
+Create table scores
+( 
+id INT PRIMARY KEY auto_increment,
+num INT,
+res TEXT NOT NULL
+);
+INSERT INTO scores(num,res)
+VALUES(2, "e1p0e4p0");
+INSERT INTO scores(num,res)
+VALUES(5, "e0p1e0p1e1p1e2p2e4p0");
+
+Create table play
+(
+fnum int,
+snum int,
+tnum int,
+fonum int
+);
